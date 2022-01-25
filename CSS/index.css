@@ -1,0 +1,180 @@
+
+nav{
+    background-color:orange;
+    padding-left: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+#Titulos{
+    width: 90%;
+}
+
+#Titulos > h1{
+    text-align: left;
+}
+
+#Titulos > h3{
+    text-align: center;
+}
+
+#Acciones{
+    width: 10%;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    width: 100%;
+}
+
+#business-menu{
+    display: flex;
+    justify-content: center;
+}
+
+#company{
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#company > img{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+#product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#product-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#productDescription{
+    width: 20%;
+    border: coral solid 3px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+#productHeader{
+    padding-left: 10%;
+    
+}
+
+#picture{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+#imgProduct{
+    width: 75%;
+    border-radius: 5px;
+}
+
+
+#menu{
+    width: 40%;
+    border:blue solid 3px;
+    border-radius: 5px;
+    margin: 3px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+#menu > h3{
+    text-align: center;
+}
+
+#menuform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#productDesc{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#numlote{
+    margin-bottom: 5px;
+}
+
+.fecha{
+    margin-bottom: 5px;
+}
+
+#operario{
+    margin-bottom: 5px;
+}
+
+#maquina{
+    margin-bottom: 5px;
+}
+
+button{
+    margin-top: 0px;
+}
+
+#batch{
+    border-radius: 5px;
+    border:black solid 3px
+}
+caption{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.employeePhoto{
+    width: 10%;
+}
+.employeePhotoImg{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.employee{
+    width: 15%;
+    text-align: center;
+}
+.equipment{
+    width: 15%;
+    text-align: center;
+}
+.date{
+    width: 20%;
+    text-align: center;
+}
+.chart{
+    width: 20%;
+}
+
+.chartImg{
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+tr:nth-child(even) {
+    background-color: #FFA07A;
+  }
+thead{
+    background-color: #FFA07A;
+}
